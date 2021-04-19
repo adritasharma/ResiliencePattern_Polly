@@ -2,11 +2,12 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace RetryPattern.Infastructure
 {
     public interface ISampleRepository
     {
-        public IEnumerable<Post> GetSomeData();
+        public Task<IEnumerable<PostEntityModel>> GetSomeData();
     }
 }

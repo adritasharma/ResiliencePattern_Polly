@@ -8,8 +8,8 @@ namespace RetryPattern.Infastructure.Repositories.Posts
 {
     public interface IPostRepository
     {
-        public  Task<Post> GetPosts();
-        public Task<Post> GetPostById(int postId);
-        public Task<Post> GetPostCommentsById(int postId);
+        public  Task<PostEntityModel> GetPosts();
+        public Task<PostEntityModel> GetPostById(int postId);
+        public Task<PostEntityModel> GetPostCommentsById(int postId);
     }
 }

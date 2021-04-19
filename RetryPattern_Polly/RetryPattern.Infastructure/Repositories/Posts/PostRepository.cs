@@ -16,17 +16,17 @@ namespace RetryPattern.Infastructure.Repositories.Posts
             _httpClient = httpClient;
         }
 
-        public Task<Post> GetPostById(int postId)
+        public Task<PostEntityModel> GetPostById(int postId)
         {
             throw new NotImplementedException();
         }
 
-        public Task<Post> GetPostCommentsById(int postId)
+        public Task<PostEntityModel> GetPostCommentsById(int postId)
         {
             throw new NotImplementedException();
         }
 
-        public Task<Post> GetPosts()
+        public Task<PostEntityModel> GetPosts()
         {
             throw new NotImplementedException();
         }

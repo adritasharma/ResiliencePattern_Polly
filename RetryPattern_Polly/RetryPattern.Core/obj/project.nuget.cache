@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "h2spePSyR2fB5cyJ+PjrbXruuUMg4ObI7a3DxPJSfoAJRzX9VKFRPtmAG+Mb8HfiiAbpTRtw/cB4YDNPBMvBfQ==",
+  "dgSpecHash": "HoT6yP5nSX8RtZE2kKt9wmNu/5oEEood2c3KCcdwYR1IkaNhaJuwCsEJsmMkPDwvZqhZJapmLL66TP3+elqeQw==",
   "success": true,
   "projectFilePath": "C:\\Adrita\\Workspace\\GitHub\\Projects\\RetryPattern_Polly\\RetryPattern_Polly\\RetryPattern.Core\\RetryPattern.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\adrit\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\adrit\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\adrit\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }
