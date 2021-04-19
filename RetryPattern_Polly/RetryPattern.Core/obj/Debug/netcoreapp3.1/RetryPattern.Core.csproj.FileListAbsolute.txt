@@ -1,0 +1,9 @@
+C:\Adrita\Workspace\GitHub\Projects\RetryPattern_Polly\RetryPattern_Polly\RetryPattern.Core\bin\Debug\netcoreapp3.1\RetryPattern.Core.deps.json
+C:\Adrita\Workspace\GitHub\Projects\RetryPattern_Polly\RetryPattern_Polly\RetryPattern.Core\bin\Debug\netcoreapp3.1\RetryPattern.Core.dll
+C:\Adrita\Workspace\GitHub\Projects\RetryPattern_Polly\RetryPattern_Polly\RetryPattern.Core\bin\Debug\netcoreapp3.1\RetryPattern.Core.pdb
+C:\Adrita\Workspace\GitHub\Projects\RetryPattern_Polly\RetryPattern_Polly\RetryPattern.Core\obj\Debug\netcoreapp3.1\RetryPattern.Core.csprojAssemblyReference.cache
+C:\Adrita\Workspace\GitHub\Projects\RetryPattern_Polly\RetryPattern_Polly\RetryPattern.Core\obj\Debug\netcoreapp3.1\RetryPattern.Core.csproj.CoreCompileInputs.cache
+C:\Adrita\Workspace\GitHub\Projects\RetryPattern_Polly\RetryPattern_Polly\RetryPattern.Core\obj\Debug\netcoreapp3.1\RetryPattern.Core.AssemblyInfoInputs.cache
+C:\Adrita\Workspace\GitHub\Projects\RetryPattern_Polly\RetryPattern_Polly\RetryPattern.Core\obj\Debug\netcoreapp3.1\RetryPattern.Core.AssemblyInfo.cs
+C:\Adrita\Workspace\GitHub\Projects\RetryPattern_Polly\RetryPattern_Polly\RetryPattern.Core\obj\Debug\netcoreapp3.1\RetryPattern.Core.dll
+C:\Adrita\Workspace\GitHub\Projects\RetryPattern_Polly\RetryPattern_Polly\RetryPattern.Core\obj\Debug\netcoreapp3.1\RetryPattern.Core.pdb
