@@ -39,7 +39,6 @@ namespace RetryPattern_Polly
             services.AddScoped(typeof(ISampleService), typeof(SampleService));
            // services.AddScoped(typeof(IPostRepository), typeof(PostRepository));
 
-            services.AddHttpClient();
             services.AddHttpClientForPostService(Configuration);
             services.AddTransient<PostsUrlBuilder>();
 
