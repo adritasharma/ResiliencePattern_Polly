@@ -10,6 +10,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using RetryPattern.Core.Services;
+using RetryPattern.Infastructure;
+using RetryPattern.Infastructure.Repositories;
+using RetryPattern.Infastructure.Repositories.Posts;
 
 namespace RetryPattern_Polly
 {
@@ -26,6 +30,13 @@ namespace RetryPattern_Polly
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+            services.AddScoped(typeof(ISampleRepository), typeof(SampleRepository));
+            services.AddScoped(typeof(ISampleService), typeof(SampleService));
+            services.AddScoped(typeof(IPostRepository), typeof(PostRepository));
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
