@@ -14,6 +14,8 @@ using RetryPattern.Core.Services;
 using RetryPattern.Infastructure;
 using RetryPattern.Infastructure.Repositories;
 using RetryPattern.Infastructure.Repositories.Posts;
+using RetryPattern.Infastructure.Repositories.Posts.Contracts;
+using RetryPattern_Polly.Extensions;
 
 namespace RetryPattern_Polly
 {
@@ -35,7 +37,11 @@ namespace RetryPattern_Polly
 
             services.AddScoped(typeof(ISampleRepository), typeof(SampleRepository));
             services.AddScoped(typeof(ISampleService), typeof(SampleService));
-            services.AddScoped(typeof(IPostRepository), typeof(PostRepository));
+           // services.AddScoped(typeof(IPostRepository), typeof(PostRepository));
+
+            services.AddHttpClient();
+            services.AddHttpClientForPostService(Configuration);
+            services.AddTransient<PostsUrlBuilder>();
 
         }
 
