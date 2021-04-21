@@ -9,5 +9,6 @@ namespace ResiliencePattern.Infastructure
     public interface ISampleRepository
     {
         public Task<IEnumerable<PostEntityModel>> GetSomeData();
+        public Task<IEnumerable<EmployeeEntityModel>> GetEmployees();
     }
 }

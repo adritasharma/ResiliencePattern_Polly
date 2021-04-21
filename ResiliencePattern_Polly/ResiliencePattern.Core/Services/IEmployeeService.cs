@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace ResiliencePattern.Core.Services
 {
-    public interface ISampleService
+    public interface IEmployeeService
     {
-        public Task<IEnumerable<PostServiceModel>> GetSomeData();
+        public Task<IEnumerable<EmployeeServiceModel>> GetEmployees();
     }
 }
