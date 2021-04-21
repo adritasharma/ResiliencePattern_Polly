@@ -22,7 +22,6 @@ namespace ResiliencePattern.Infastructure.Repositories.Posts
             _postsUrlBuilder = postsUrlBuilder;
             _postRequestBuilder = postRequestBuilder;
         }
-
         public async Task<PostEntityModel> AddPost(PostEntityModel post)
         {
             string url = _postsUrlBuilder.Build();
