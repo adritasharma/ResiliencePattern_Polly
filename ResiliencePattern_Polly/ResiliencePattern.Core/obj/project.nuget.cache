@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "EZGUOgj2zdtkvT7RbG7/SHam7M/FgQADm9vHdeEY9hX+GXCoXFvtAuBLaGkCSs7RQSndt6VI7m1GhIpRs0IbEQ==",
+  "success": true,
+  "projectFilePath": "C:\\Adrita\\Workspace\\GitHub\\Projects\\ResiliencePattern_Polly\\ResiliencePattern_Polly\\ResiliencePattern.Core\\ResiliencePattern.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adrit\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\adrit\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\adrit\\.nuget\\packages\\system.net.http.json\\5.0.0\\system.net.http.json.5.0.0.nupkg.sha512",
+    "C:\\Users\\adrit\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\adrit\\.nuget\\packages\\system.text.json\\5.0.0\\system.text.json.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

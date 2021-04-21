@@ -1,0 +1,12 @@
+C:\Adrita\Workspace\GitHub\Projects\ResiliencePattern_Polly\ResiliencePattern_Polly\ResiliencePattern.Core\bin\Debug\netcoreapp3.1\ResiliencePattern.Core.deps.json
+C:\Adrita\Workspace\GitHub\Projects\ResiliencePattern_Polly\ResiliencePattern_Polly\ResiliencePattern.Core\bin\Debug\netcoreapp3.1\ResiliencePattern.Core.dll
+C:\Adrita\Workspace\GitHub\Projects\ResiliencePattern_Polly\ResiliencePattern_Polly\ResiliencePattern.Core\bin\Debug\netcoreapp3.1\ResiliencePattern.Core.pdb
+C:\Adrita\Workspace\GitHub\Projects\ResiliencePattern_Polly\ResiliencePattern_Polly\ResiliencePattern.Core\obj\Debug\netcoreapp3.1\ResiliencePattern.Core.csprojAssemblyReference.cache
+C:\Adrita\Workspace\GitHub\Projects\ResiliencePattern_Polly\ResiliencePattern_Polly\ResiliencePattern.Core\obj\Debug\netcoreapp3.1\ResiliencePattern.Core.AssemblyInfoInputs.cache
+C:\Adrita\Workspace\GitHub\Projects\ResiliencePattern_Polly\ResiliencePattern_Polly\ResiliencePattern.Core\obj\Debug\netcoreapp3.1\ResiliencePattern.Core.AssemblyInfo.cs
+C:\Adrita\Workspace\GitHub\Projects\ResiliencePattern_Polly\ResiliencePattern_Polly\ResiliencePattern.Core\obj\Debug\netcoreapp3.1\ResiliencePattern.Core.dll
+C:\Adrita\Workspace\GitHub\Projects\ResiliencePattern_Polly\ResiliencePattern_Polly\ResiliencePattern.Core\obj\Debug\netcoreapp3.1\ResiliencePattern.Core.pdb
+C:\Adrita\Workspace\GitHub\Projects\ResiliencePattern_Polly\ResiliencePattern_Polly\ResiliencePattern.Core\bin\Debug\netcoreapp3.1\ResiliencePattern.Infastructure.dll
+C:\Adrita\Workspace\GitHub\Projects\ResiliencePattern_Polly\ResiliencePattern_Polly\ResiliencePattern.Core\bin\Debug\netcoreapp3.1\ResiliencePattern.Infastructure.pdb
+C:\Adrita\Workspace\GitHub\Projects\ResiliencePattern_Polly\ResiliencePattern_Polly\ResiliencePattern.Core\obj\Debug\netcoreapp3.1\ResiliencePattern.Core.csproj.CopyComplete
+C:\Adrita\Workspace\GitHub\Projects\ResiliencePattern_Polly\ResiliencePattern_Polly\ResiliencePattern.Core\obj\Debug\netcoreapp3.1\ResiliencePattern.Core.csproj.CoreCompileInputs.cache

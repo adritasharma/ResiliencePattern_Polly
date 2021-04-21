@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "XaS+z86jez0I8iMI4wCCEb/ckdWDV9XNTCfobHavZESEwplUSW8ntzW1MLmKkxFP2BwdLnLaKVr3elyjchNGIw==",
+  "success": true,
+  "projectFilePath": "C:\\Adrita\\Workspace\\GitHub\\Projects\\ResiliencePattern_Polly\\ResiliencePattern_Polly\\ResiliencePattern.Infastructure\\ResiliencePattern.Infastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adrit\\.nuget\\packages\\system.net.http.json\\5.0.0\\system.net.http.json.5.0.0.nupkg.sha512",
+    "C:\\Users\\adrit\\.nuget\\packages\\system.text.json\\5.0.0\\system.text.json.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
