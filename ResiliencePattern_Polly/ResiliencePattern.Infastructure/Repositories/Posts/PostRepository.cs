@@ -13,11 +13,30 @@ namespace ResiliencePattern.Infastructure.Repositories.Posts
     {
         private readonly HttpClient _httpClient;
         private readonly PostsUrlBuilder _postsUrlBuilder;
+        private readonly PostRequestBuilder _postRequestBuilder;
 
-        public PostRepository(HttpClient httpClient, PostsUrlBuilder postsUrlBuilder)
+        public PostRepository(HttpClient httpClient,
+            PostsUrlBuilder postsUrlBuilder, PostRequestBuilder postRequestBuilder)
         {
             _httpClient = httpClient;
             _postsUrlBuilder = postsUrlBuilder;
+            _postRequestBuilder = postRequestBuilder;
+        }
+
+        public async Task<PostEntityModel> AddPost(PostEntityModel post)
+        {
+            string url = _postsUrlBuilder.Build();
+
+            var request = _postRequestBuilder
+                           .WithPostData(post)
+                           .Build();
+
+            var response = await _httpClient.PostAsync(url,new StringContent(request));
+
+            response.EnsureSuccessStatusCode();
+
+            return await response.Content.ReadFromJsonAsync<PostEntityModel>();
+
         }
 
         public Task<PostEntityModel> GetPostById(int postId)
@@ -33,7 +52,7 @@ namespace ResiliencePattern.Infastructure.Repositories.Posts
         public Task<IEnumerable<PostEntityModel>> GetPosts()
         {
             string url = _postsUrlBuilder.Build();
-
+                       
             return _httpClient.GetFromJsonAsync<IEnumerable<PostEntityModel>>(url);
         }
     }

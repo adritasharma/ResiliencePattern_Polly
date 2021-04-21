@@ -14,6 +14,7 @@ using ResiliencePattern.Core.Services;
 using ResiliencePattern.Infastructure;
 using ResiliencePattern.Infastructure.Repositories;
 using ResiliencePattern.Infastructure.Repositories.Employees.Contracts;
+using ResiliencePattern.Infastructure.Repositories.Posts;
 using ResiliencePattern.Infastructure.Repositories.Posts.Contracts;
 using ResiliencePattern_Polly.Extensions;
 
@@ -43,6 +44,7 @@ namespace ResiliencePattern.WebAPI
 
             services.AddHttpClientForPostService(Configuration);
             services.AddTransient<PostsUrlBuilder>();
+            services.AddTransient<PostRequestBuilder>();
 
             services.AddHttpClientForEmployeeService(Configuration);
             services.AddTransient<EmployeeUrlBuilder>();

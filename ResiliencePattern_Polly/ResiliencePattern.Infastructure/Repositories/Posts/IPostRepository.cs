@@ -11,5 +11,7 @@ namespace ResiliencePattern.Infastructure.Repositories.Posts
         public Task<IEnumerable<PostEntityModel>> GetPosts();
         public Task<PostEntityModel> GetPostById(int postId);
         public Task<PostEntityModel> GetPostCommentsById(int postId);
+        public Task<PostEntityModel> AddPost(PostEntityModel post);
+
     }
 }
